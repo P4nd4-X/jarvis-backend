@@ -3,8 +3,8 @@ import openai
 import os
 
 # === CONFIG ===
-openai.api_key = os.getenv("OPENAI_API_KEY")  # You must set this in Render environment variables
-SECRET_TOKEN = os.getenv("SECRET_TOKEN", "X4nd3r2S3cr3tJ4rv12!..")
+openai.api_key = os.getenv("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")  # You must set this in Render environment variables
+SECRET_TOKEN = os.getenv("SECRET_TOKEN", "X4nd3r2S3cr3tJ4rv12!")
 
 app = Flask(__name__)
 
